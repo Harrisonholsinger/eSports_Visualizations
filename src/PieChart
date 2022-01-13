@@ -1,0 +1,13 @@
+library("ggplot2")
+library("tidyverse")
+
+
+ 
+bg<- ggplot(eSportsData) + geom_bar(aes(x = Game, y = Number.of.Players..Millions.)
+                                    , stat = "identity", color = "purple", fill = "pink")
+
+pie <- bg + coord_polar("x", start=0)
+pie + labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+       x ="Game", y = "Number of Players (Millions)")
+
+
