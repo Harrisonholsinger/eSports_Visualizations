@@ -1,0 +1,9 @@
+library("ggplot2")
+library("tidyverse")
+
+
+ggplot(eSportsData) + geom_bar(aes(x = Game, y = Number.of.Players..Millions.), stat = "identity",
+                               color = "red", fill = "blue") + 
+  labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+       x ="Game", y = "Number of Players (Millions)")
+
