@@ -1,0 +1,8 @@
+library("ggplot2")
+library("tidyverse")
+
+
+ggplot(data = eSportsData, mapping = aes(x = Game, y = Number.of.Players..Millions.)) + 
+  geom_point(shape = 21, size = 2, color = "red", fill = "black", stroke = 5) + 
+  labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+         x ="Game", y = "Number of Players (Millions)")
