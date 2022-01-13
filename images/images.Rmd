@@ -1,1 +1,5 @@
-h
+
+![Rplot](https://user-images.githubusercontent.com/75334462/149245288-7215ba11-f161-45ae-9698-83eb613062b2.png)
+![Rplot01](https://user-images.githubusercontent.com/75334462/149245301-61b2cb5f-4813-49c6-a770-6b7700844574.png)
+![Rplot02](https://user-images.githubusercontent.com/75334462/149245306-f2122807-f6b9-4741-8b1d-782c5a4b4291.png)
+![Rplot03](https://user-images.githubusercontent.com/75334462/149245309-35845ec6-0232-45a1-9a01-d62904b5c9f2.png)
