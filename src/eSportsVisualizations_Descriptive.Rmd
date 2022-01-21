@@ -1,1 +1,31 @@
+BOX PLOT
 
+library("ggplot2")
+library("tidyverse")
+
+ggplot(eSportsData, aes(x=Number.of.Players..Millions., y=Game)) + 
+  geom_boxplot(notch = TRUE, color = "blue", fill = "white", alpha = 0.2) + 
+  labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+       y ="Game", x = "Number of Players (Millions)")
+
+HISTOGRAM
+
+library("ggplot2")
+library("tidyverse")
+
+ggplot(eSportsData, aes(x = Number.of.Players..Millions.), stat = "bin") + 
+  geom_histogram(binwidth = 6.5, color="blue", fill="white") +
+  geom_density(alpha=1, fill="#FF6666") + 
+  labs(title="Counts of Number of Players of Selected eSports Games Worldwide as of August 2017",
+       x ="Number of Players(Millions)", y = "Count")
+       
+VIOLIN PLOT
+
+library("ggplot2")
+library("tidyverse")
+
+
+ggplot(data = eSportsData, aes(y = Game, x = Number.of.Players..Millions.)) + 
+  geom_violin(color = "blue", fill = "white") + 
+  labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+       y ="Game", x = "Number of Players (Millions)")
