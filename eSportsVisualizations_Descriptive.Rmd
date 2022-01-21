@@ -1,1 +1,7 @@
+library("ggplot2")
+library("tidyverse")
 
+ggplot(eSportsData, aes(x=Number.of.Players..Millions., y=Game)) + 
+  geom_boxplot(notch = TRUE, color = "blue", fill = "white", alpha = 0.2) + 
+  labs(title="Number of Players of Selected eSports Games Worldwide as of August 2017",
+       y ="Game", x = "Number of Players (Millions)")
