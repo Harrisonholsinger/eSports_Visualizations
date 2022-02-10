@@ -1,3 +1,0 @@
-![Histogramplot](https://user-images.githubusercontent.com/75334462/150593404-0aae477c-f77d-492c-b5d7-1e27127c6750.png)
-![Rboxplot](https://user-images.githubusercontent.com/75334462/150593436-c806ac3b-8afc-4b1c-aba9-54783ea25e2f.png)
-![Violinplot](https://user-images.githubusercontent.com/75334462/150593460-3765aad0-8d62-4d11-95ea-c51cc37bb10f.png)
